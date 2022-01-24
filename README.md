@@ -3,7 +3,7 @@
 Usage: ./httpdouche ips.txt results.txt 200
 
 <h3>httpDOUCHE v.1.0</h3>
-<img src="https://raw.githubusercontent.com/n3onhacks/httpdouche/main/httpdouche.jpg" alt="cidor logo">
+<img src="https://raw.githubusercontent.com/n3onhacks/httpdouche/main/httpDOUCHE.jpg" alt="httpDOUCHE logo">
 
 **!FOLLOW INSTALLATION INSTRUCTIONS BELOW!**<p>
 httpDOUCHE is a script written in BASH (Shell Script) to clean a list of gathered domains/subs to create a list targeting a specific response code (ex: 200) prior to putting through a scanner (ex: nuclei) to save time. Written by n3on (<a href="https://www.twitter.com/@n3onhacks">@n3onhacks</a>).
