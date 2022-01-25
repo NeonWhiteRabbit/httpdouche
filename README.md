@@ -1,6 +1,6 @@
 # httpDOUCHE
 
-Usage: ./httpdouche ips.txt results.txt 200
+<b>Usage: ./httpdouche ips.txt results.txt</b>
 
 <h3>httpDOUCHE v.2.0</h3>
 <img src="https://raw.githubusercontent.com/n3onhacks/httpdouche/main/httpdouche-logo.jpg" alt="httpDOUCHE logo">
