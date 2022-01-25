@@ -2,11 +2,11 @@
 
 Usage: ./httpdouche ips.txt results.txt 200
 
-<h3>httpDOUCHE v.1.0</h3>
+<h3>httpDOUCHE v.2.0</h3>
 <img src="https://raw.githubusercontent.com/n3onhacks/httpdouche/main/httpdouche-logo.jpg" alt="httpDOUCHE logo">
 
 **!FOLLOW INSTALLATION INSTRUCTIONS BELOW!**<p>
-httpDOUCHE is a script written in BASH (Shell Script) to clean a list of gathered domains/subs to create a list targeting a specific response code (ex: 200) prior to putting through a scanner (ex: nuclei) to save time. Written by n3on (<a href="https://www.twitter.com/@n3onhacks">@n3onhacks</a>).
+httpDOUCHE is a script written in BASH (Shell Script) to clean a list of gathered domains/subs to create a list targeting response codes across the 200s/300s prior to putting through a scanner (ex: nuclei) to save time. Written by n3on (<a href="https://www.twitter.com/@n3onhacks">@n3onhacks</a>).
 
 <h1>Videos</h1>
 
@@ -15,21 +15,26 @@ httpDOUCHE is a script written in BASH (Shell Script) to clean a list of gathere
  
 <h1>Usage</h1>
   
-./httpdouche.sh <ips.txt> <results.txt> <200> <p>
-(Ex: ./httpdouche.sh ips.txt results.txt 200)
+./httpdouche.sh <ips.txt> <results.txt> <p>
+(Ex: ./httpdouche.sh ips.txt results.txt)
  
 <b>Note: **!MUST RUN httpDOUCHE AS $ROOT!**</b><p>
 
  <h1>Installation Instructions</h1>
->>cd /opt  (*must be in /opt folder to work)<p><p>
+>>cd /opt<p><p>
 >>git clone https://github.com/n3onhacks/httpdouche.git<p>
 >>chmod 777 -R httpdouche<p>
 >>cd httpdouche<p>
->>./httpdouche.sh <ips.txt> <results.txt> <response-code><p>
+>>./httpdouche.sh <ips.txt> <results.txt><p>
 
 <h1>Version Control</h1>
-  
-<h3>Version 1.0 release</h3>
+ 
+<h3>Version 2.0 release</h3>
+-Added multi-response grabbing capabilities<p>
+-Added folder creation/individual file creation by response<br>
+ -Added advanced output/reporting capabilities
+
+ <h3>Version 1.0 release</h3>
 -Initial release of httpDOUCHE<p>
  
 
