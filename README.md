@@ -2,7 +2,7 @@
 
 <b>Usage: ./httpdouche ips.txt results.txt</b>
 
-<h3>httpDOUCHE v.2.0</h3>
+<h3>httpDOUCHE v.2.1</h3>
 <img src="https://raw.githubusercontent.com/n3onhacks/httpdouche/main/httpdouche-logo.jpg" alt="httpDOUCHE logo">
 
 **!FOLLOW INSTALLATION INSTRUCTIONS BELOW!**<p>
@@ -26,6 +26,9 @@ httpDOUCHE is a script written in BASH (Shell Script) to clean a list of gathere
 >>./httpdouche.sh <ips.txt> <results.txt><p>
 
 <h1>Version Control</h1>
+
+<h3>Version 2.1 release</h3>
+-Added /subtxt folder for easy subm3rge tool use<p>
  
 <h3>Version 2.0 release</h3>
 -Added multi-response grabbing capabilities<p>
