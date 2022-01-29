@@ -17,8 +17,6 @@ httpDOUCHE is a script written in BASH (Shell Script) to clean a list of gathere
   
 ./httpdouche.sh <ips.txt> <results.txt> <p>
 (Ex: ./httpdouche.sh ips.txt results.txt)
- 
-<b>Note: **!MUST RUN httpDOUCHE AS $ROOT!**</b><p>
 
  <h1>Installation Instructions</h1>
 >>cd /opt<p><p>
