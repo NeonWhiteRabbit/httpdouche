@@ -3,61 +3,65 @@
 #./httpdouche URLLIST.txt OUTPUTFILE.txt
 
 #Some sexy ascii text
+
 echo ""
 echo ""
-echo "            ------------------------------------------------------"
-echo "           | cleaning list of subs for only http status responses |"
-echo "           |             prior to running through scanner         |"
-echo "            ------------------------------------------------------"
+echo "                 --------------------------------------------------------------"
+echo "                | cleaning list of subs for only http 200/300 status responses |"
+echo "                |               prior to running through scanner               |"
+echo "                 ---------------------------------------------------------------"
+echo ""                                                                                                                        
 echo ""
+echo "                                      .-:://+++++//:-."
+echo "                                 .:+shdmmmmmmmmmmmNNNNmmds+:."
+echo "                               -+ydmmdys+/-..........-::/oydmNmho-"
+echo "                             :hNNds:.                        -/hmNds-"
+echo "                           -hNNh/                               ./hNNy:"
+echo "                          +NMm/                                    -yNNy."
+echo "                         oNMd.                                       -hMNo"
+echo "                        sMMh       .-::::::::-.....         .......... +NMd-"
+echo "                       /MMd       sMMNNNNNNMMMMMMMMMNh      NMMMNNNNNNNNMMMN:"
+echo "                      -NMd        mN:       --.  .oMN      NN:     -- -hMmMN/"
+echo "                      dMN.       /Mo       oNNd   sMd       Nd     oNNd yM/oMN/"
+echo "                     oMM/        /Mh       :yho  :NM:       +My-    :/+dNs  yMN-"
+echo "                     NMd          sNmo:-     .-/hNN+         /hmmdhhdmdy:   .mMy"
+echo "                    +MM/           .+yhdmmmmmmmdho.            .:///:-       oMN."
+echo "                    hMm                ..-:::-.                ....-----.    .NM/"
+echo "                    NMh            .-:////++oosssssyhhhhhhdddmddmmmNmddho     mMo"
+echo "                    NMh         /oyhhdddhyyysssooooooo+++/////:::-oMy.        mMo"
+echo "                    NMm                                            dN:        mMo"
+echo "                    hMM:                                           yMo       :NM+       .."
+echo "                    :NMm.                                         .NM/      /NMh       +Nm"
+echo "                     +NMm:                                 .yy-   hMy     :hMNo        hMN."
+echo "                      :NMNs                                 sMMs  hMs    :dMNs.        hMm"
+echo "                        sNMNo                              hMMy.dm/   +mMNo         hdosdy"
+echo "                         .sNMNs-                         +dNmMdh+  /yNNd+           sm  /M."
+echo "                            +hNNdo:                     dMh.-NMo/ymNms-         :+yho./hd/"
+echo "                              .oMMNmds/:-.             +Mh.omMMNNMh:       -/ohhs++oyyo-"
+echo "                              -dMN+oydmNNmmmmdhhhhdddhyyhymNmhsoMM/   -:oyhysooyyyo/."
+echo "                             -mMm-    .-:+sdNMMNmdysoshddy+-.  :MM/:oyhyso+shhyo:."
+echo "                            :mMm-     .:+yhhdyo++shddy+-       /MNys+/+shhy+-."
+echo "                           :NMm-   ohddyo//+sddds/-          +Mm./ydds:"
+echo "                          -NMm-    ./:--+ydmmy/-              sMNdh+-"
+echo "                         .dMN-      /ydNmho:                  hMh-"
+echo "                         sMM/      /mho:                      dM/"
+echo "                        :NMy                                   mM:"
+echo "                        mMN.                                  NN"
+echo "                       oMMo         httpDOUCHE v.2.1         -MN"
+echo "                      .NMm                                    /MN"
+echo "                      yMM/               by n3on              +MN"
+echo "                     -NMm                                    +MN"
+echo "                     oMM+              @n3onhacks            +MN" 
+echo "                     :hs                                     -y+"
+echo ""                                                                                                                     
 echo ""
-echo "                                               :yhy+."
-echo "                                             sMMMNNd"
-echo "                                            yMMNMMMy"
-echo "          httpDOUCHE                       yMMMMMMy"
-echo "                   v.2.0                   oMMMMMMs"
-echo "                                          -MMMNMMh"
-echo "           by                             dMMMMMN"
-echo "                @n3onhacks               :MMMMMM+"
-echo "                                         hMMMMMm"
-echo "                                        .MMMMMMo"
-echo "                                        /MMMMMM."
-echo "                                        yMMMMMm"
-echo "         Lets get nice and clean        dMMMMMy"
-echo "                   for daddy            NMMMMMs"
-echo "                                        MMMMMM+"
-echo "                                        MMMMMMo"
-echo "                                      -hMMMMMMN+"
-echo "                                      oMMMMMMMMN"
-echo "                                      sMMMMMMMMN"
-echo "                                     +NMMMMMMMMMy-"
-echo "                                  .oNMMMMMMMMMMMMMh/"
-echo "                                .sNMMMMMMMMMMMMMMMMMd/"
-echo "                               oNMMMMMMMMMMMMMMMMMMMMMd-"
-echo "                             .dMMMMMMMMMMMMMMMMMMMMMMMMN+"
-echo "                            -mMMMMMMMMMMMMMMMMMMMMMMMMMMMs"
-echo "                           .dMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+"
-echo "                           oMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN"
-echo "                           mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/"                                   
-echo "                          MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMo"
-echo "                          MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs"
-echo "                          NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/"
-echo "                           oMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN"
-echo "                           hMMMMMMMMMMMMMMMMMMMMMMMMMMMMM:"
-echo "                            dMMMMMMMMMMMMMMMMMMMMMMMMMMM/"
-echo "                             .mMMMMMMMMMMMMMMMMMMMMMMMMM+"
-echo "                              .mMMMMMMMMMMMMMMMMMMMMMMM+"
-echo "                               .mMMMMMMMMMMMMMMMMMMMMMo"
-echo "                                -mMMMMMMMMMMMMMMMMMMMo"
-echo "                                 -mMMMMMMMMMMMMMMMMMs"
-echo "                                  .oyhhhhhhhhhhhhhs:"
-echo "            "                                           
-echo ""                                                                                      
-echo "  Cleaned domains/subs with 200s and 300s status codes will be in $2 when completed."
-echo ""
-echo "  Wait patiently, this can take a few minutes depending on how many domains/subs you have."
-echo ""
-echo ""
+echo "" 
+echo "" 
+echo "          Cleaned domains/subs with 200s and 300s status codes will be in $2 when completed." 
+echo "" 
+echo "       Wait patiently, this can take a few minutes depending on how many domains/subs you have." 
+echo "" 
+echo "" 
 
 #inputs                                                                                                                                                                                 
 a=$1  #listToClean
@@ -225,19 +229,19 @@ fi
 
 FILE=${douche}/$2_folder/207.txt 
 if [[ -f "$FILE" ]]; then
-echo "---------------------=== ::  Status Code: 207 MULTI-STATUS (webDAV)  :: ===-------------"
+echo "---------------------=== ::  Status Code: 207 MULTI-STATUS -webDAV-  :: ===-------------"
 cat ${douche}/$2_folder/207.txt
 fi
 
 FILE=${douche}/$2_folder/208.txt 
 if [[ -f "$FILE" ]]; then
-echo "---------------------=== ::  Status Code: 208 NO ALREADY REPORTER (webDAV)  :: ===------"
+echo "---------------------=== ::  Status Code: 208 NO ALREADY REPORTER -webDAV-  :: ===------"
 cat ${douche}/$2_folder/208.txt
 fi
 
 FILE=${douche}/$2_folder/226.txt 
 if [[ -f "$FILE" ]]; then
-echo "---------------------=== ::  Status Code: 226 IM USED (HTTP DELTA ENCODING)  :: ===-----"
+echo "---------------------=== ::  Status Code: 226 IM USED -HTTP DELTA ENCODING-  :: ===-----"
 cat ${douche}/$2_folder/226.txt
 fi
 
@@ -294,20 +298,20 @@ echo "---------------------=== ::  --------========-----=========  :: ===-------
 echo "---------------------=== ::             COMPLETED            :: ===---------------------"
 echo "---------------------=== ::  --------========-----=========  :: ===---------------------"
 echo "---------------------=== ::  --------========-----=========  :: ===---------------------"
-echo "---------------------=== ::  Files Seperated By Rlsesponse Are :: ===---------------------"
-echo "---------------------=== ::         Available At:            :: ===---------------------"
+echo "---------------------=== :: Files Seperated By Responses Are :: ===---------------------"
+echo "---------------------=== ::           Available At:          :: ===---------------------"
 echo "---------------------=== ::- ${douche}/$2_folder/ -:: ===---------------------"
 echo "---------------------=== ::  --------========-----=========  :: ===---------------------"
 echo "---------------------=== ::          Folder Contents:        :: ===---------------------"
 echo "---------------------=== ::  --------========-----=========  :: ===---------------------"
 
 #Show folder contents
-ls ${douche}/$2_folder/
 echo "---------------------=== ::  --------========-----=========  :: ===---------------------"
-echo "---------------------=== ::  --------========-----=========  :: ===---------------------"
+echo "---------------------=== ::  --  File for subm3rge Tool: --  :: ===---------------------"
+echo "---------------------=== ::  --- ${douche}/subtxt/ ---  :: ===---------------------"
 echo "---------------------=== ::  --------========-----=========  :: ===---------------------"
 
-#
+cp $2 ${douche}/subtxt/
 
 #remove temp files
 rm ${douche}/directory.txt
