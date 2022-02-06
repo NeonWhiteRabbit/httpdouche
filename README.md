@@ -23,7 +23,7 @@ httpDOUCHE is a script written in BASH (Shell Script) to clean a list of gathere
 >>git clone https://github.com/n3onhacks/httpdouche.git<p>
 >>chmod 777 -R httpdouche<p>
 >>cd httpdouche<p>
->>./httpdouche.sh <ips.txt> <results.txt><p>
+>>./httpdouche.sh ips.txt results.txt<p>
 
 <h1>Version Control</h1>
 
