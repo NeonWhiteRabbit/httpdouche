@@ -29,6 +29,10 @@ httpDOUCHE is a script written in BASH (Shell Script) to clean a list of gathere
 
 <h1>Version Control</h1>
 
+<h3>Version 2.2 release</h3>
+-Added HTTP/HTTPS<p>
+-Added Parallel<p>
+ 
 <h3>Version 2.1 release</h3>
 -Added /subtxt folder for easy subm3rge tool use<p>
  
