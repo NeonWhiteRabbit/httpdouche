@@ -20,7 +20,7 @@ httpDOUCHE is a script written in BASH (Shell Script) to clean a list of gathere
 
  <h1>Installation Instructions</h1>
 <h3>Requires Parallel</h3><p>
->>gem install parallel<p>
+>>apt install parallel<p>
 >>cd /opt<p><p>
 >>git clone https://github.com/n3onhacks/httpdouche.git<p>
 >>chmod 777 -R httpdouche<p>
